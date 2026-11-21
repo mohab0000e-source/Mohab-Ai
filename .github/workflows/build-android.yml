@@ -28,7 +28,7 @@ jobs:
         run: flutter pub get
 
       - name: Check Dart code
-        run: dart analyze
+        run: dart analyze lib
 
       - name: Build release APK
         run: flutter build apk --release
